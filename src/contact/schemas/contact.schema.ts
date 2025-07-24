@@ -23,9 +23,6 @@ export class Contact {
   address: string;
 
   @Prop({ required: false })
-  mapLocation: string; // URL to embed a map
-
-  @Prop({ required: false })
   formPlaceholder: string; // Text to show in the contact form
 }
 
